@@ -29,7 +29,7 @@ def predict_next_word(model, tokenizer, text, max_seq_len):
 
 ## Streamlit app
 
-st.title('Next Word Prediction with LSTM')
+st.title('Next Word Prediction with GRU')
 input_text = st.text_input('Enter the sequence of words')
 if st.button('Predict Next Word'):
     max_seq_len = model.input_shape[1]+1  ## retrive the max sequence length 
