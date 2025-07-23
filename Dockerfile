@@ -26,4 +26,4 @@ RUN pip install -r requirements.txt
 EXPOSE 8501
 
 # Run the Streamlit app
-CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "streamlit_for_gru.py", "--server.port=8501", "--server.address=0.0.0.0"]
